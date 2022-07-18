@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;1,300&family=Overpass:ital@1&family=Poppins:wght@200&family=Roboto:wght@300&family=Tajawal:wght@300&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4 rem;
+    margin-top: 5rem;
+}
+ 
+body{
+    font-family: "poppins",sans-serif;
+    margin: 0;
+    background-image: url('./snow.avif');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+    
+}
+
+.countdown-el  span{
+font-size: 1.3rem    ;
+}
+
+.coutdown-el{
+    text-align: center;
+}
+
+.countdown-countainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+
+    font-weight: bold;
+    font-size:6rem ;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
